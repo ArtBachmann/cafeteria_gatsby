@@ -4,8 +4,12 @@
   box-sizing: border-box;
 }
 
+:root {
+  --mainYellow: rgb(196, 142, 42);
+}
+
 body {
   font-family: "Caveat", cursive;
-  color: red;
-  background: blue;
+  color: black;
+  background: rgb(253, 249, 241);
 }
