@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "caeteria_gatsby",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "A prototype project to visualize how to create react.js website with dynamic data.",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Art Bachmann",
   "dependencies": {
     "gatsby": "^2.4.2",
     "gatsby-image": "^2.0.41",

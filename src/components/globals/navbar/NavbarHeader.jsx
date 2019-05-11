@@ -11,7 +11,7 @@ class NavbarHeader extends Component {
     return (
       <HeaderWrapper>
         <Link to="/">
-          <NavbarButton>Cafeteria Gatsby</NavbarButton>
+          <NavbarButton>Cafeteria Gatsby.js</NavbarButton>
         </Link>
         <FaAlignRight
           className="toggle-icon"

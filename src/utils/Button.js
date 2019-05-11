@@ -31,7 +31,7 @@ const SectionButton = styled(BannerButton)`
 `
 
 const NavbarButton = styled(BannerButton)`
-  padding: 0.5rem 0.2rem;
+  padding: 0.5rem 2px;
   color: ${styles.colors.mainBlack};
   ${styles.border({ color: `${styles.colors.mainWhite}` })};
   &:hover {
