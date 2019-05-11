@@ -1,5 +1,6 @@
 import styled from "styled-components"
-import { styles } from "."
+import { styles } from "../utils"
+
 const BannerButton = styled.button`
   display: block;
   color: ${styles.colors.mainWhite};
@@ -29,4 +30,15 @@ const SectionButton = styled(BannerButton)`
   }
 `
 
-export { BannerButton, SectionButton }
+const NavbarButton = styled(BannerButton)`
+  padding: 0.5rem 0.2rem;
+  color: ${styles.colors.mainBlack};
+  ${styles.border({ color: `${styles.colors.mainWhite}` })};
+  &:hover {
+    /* background: ${styles.colors.mainBlack}; */
+    color: ${styles.colors.mainYellow};
+    cursor: pointer;
+  }
+`
+
+export { BannerButton, SectionButton, NavbarButton }

@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import logo from "../../../images/logo.svg"
 import { FaAlignRight } from "react-icons/fa"
 import styled from "styled-components"
-import { styles } from "../../../utils"
+import { styles, NavbarButton } from "../../../utils"
 
 class NavbarHeader extends Component {
   render() {
@@ -11,7 +11,7 @@ class NavbarHeader extends Component {
     return (
       <HeaderWrapper>
         <Link to="/">
-          <img src={logo} alt="Saloon Gatsby" />
+          <NavbarButton>Cafeteria Gatsby</NavbarButton>
         </Link>
         <FaAlignRight
           className="toggle-icon"
