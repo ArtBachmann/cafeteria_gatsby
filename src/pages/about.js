@@ -4,12 +4,11 @@ import styled from "styled-components"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const IndexPage = () => (
+const AboutPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h3>Hello from Gatsby</h3>
-    {/* <ButtonWrapper>Click Me!</ButtonWrapper> */}
+    <h3>This is about page</h3>
   </Layout>
 )
 
-export default IndexPage
+export default AboutPage
