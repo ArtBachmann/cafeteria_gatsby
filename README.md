@@ -1,3 +1,9 @@
+Contentful data:
+key name: menu
+space id: 2q6axxrg40tm
+Content Delivery API - access token: lpfIypILfolvspUy0vlYV5q4Y0I7q65b-THhJVf6fbw
+Content Preview API - access token: SEkbYfzd1MU9nlYHKXjiIq3ucKRi-0gNfbAGcCUM4jI
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
