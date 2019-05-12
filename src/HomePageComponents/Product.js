@@ -2,6 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import { styles } from "../utils"
 import Img from "gatsby-image"
+
 export default function Product({ product }) {
   const { name, price, ingredients } = product
   const { fixed } = product.img
@@ -20,7 +21,7 @@ export default function Product({ product }) {
   )
 }
 
-export const ProductWrapper = styled.div`
+const ProductWrapper = styled.div`
   @media (min-width: 576px) {
     display: grid;
     grid-template-columns: auto 1fr;
@@ -48,9 +49,9 @@ export const ProductWrapper = styled.div`
     word-spacing: 0.2rem;
     text-transform: lowercase;
   }
-  // @media (min-width: 650px) {
-  //   display: grid;
-  //   grid-template-columns: 1fr 1fr;
-  //   grid-column-gap: 1rem;
-  // }
+  @media (min-width: 650px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1rem;
+  }
 `

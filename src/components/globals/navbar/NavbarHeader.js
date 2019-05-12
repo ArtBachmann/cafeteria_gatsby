@@ -1,26 +1,23 @@
-import React, { Component } from "react"
+import React from "react"
 import { Link } from "gatsby"
 import { FaAlignRight } from "react-icons/fa"
 import styled from "styled-components"
 import { styles, NavbarButton } from "../../../utils"
 
-class NavbarHeader extends Component {
-  render() {
-    const { handleNavbar } = this.props
-    return (
-      <HeaderWrapper>
-        <Link to="/">
-          <NavbarButton>Cafeteria Gatsby.js</NavbarButton>
-        </Link>
-        <FaAlignRight
-          className="toggle-icon"
-          onClick={() => {
-            handleNavbar()
-          }}
-        />
-      </HeaderWrapper>
-    )
-  }
+export default function NavbarHeader({ handleNavbar }) {
+  return (
+    <HeaderWrapper>
+      <Link to="/">
+        <NavbarButton>Cafeteria Gatsby.js</NavbarButton>
+      </Link>
+      <FaAlignRight
+        className="toggle-icon"
+        onClick={() => {
+          handleNavbar()
+        }}
+      />
+    </HeaderWrapper>
+  )
 }
 
 const HeaderWrapper = styled.div`
@@ -39,5 +36,3 @@ const HeaderWrapper = styled.div`
     }
   }
 `
-
-export default NavbarHeader

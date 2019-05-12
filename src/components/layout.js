@@ -13,12 +13,12 @@ import Footer from "../components/globals/Footer"
 
 const Layout = ({ children }) => {
   return (
-    <React.Fragment>
+    <div>
       <GlobalStyle />
       <Navbar />
       {children}
       <Footer />
-    </React.Fragment>
+    </div>
   )
 }
 

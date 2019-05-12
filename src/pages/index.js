@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -19,7 +20,9 @@ const IndexPage = () => (
         title="cafeteria gatsby.js"
         subtitle="Developed with React.js, GraphQL, Contentful, Netlify and Github"
       >
-        <BannerButton style={{ margin: "2rem auto" }}>menu</BannerButton>
+        <Link to="/menu/" style={{ textDecoration: "none" }}>
+          <BannerButton style={{ margin: "2rem auto" }}>menu</BannerButton>
+        </Link>
       </Banner>
     </HomeHeader>
     <QuickInfo />
