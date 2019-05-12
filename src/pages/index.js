@@ -6,23 +6,25 @@ import { HomeHeader, Banner, BannerButton } from "../utils"
 import img from "../images/bcg/homeBcg2.jpg"
 import QuickInfo from "../HomePageComponents/QuickInfo"
 import Gallery from "../HomePageComponents/Gallery"
+import Menu from "../HomePageComponents/Menu"
 
 const IndexPage = () => (
   <Layout>
     <SEO
-      title="Cafeteria Gatsby.js Produced with React.js, GraphQL, Contentful, Netlify and Github"
+      title="Cafeteria Gatsby.js React.js, GraphQL, Contentful, Netlify and Github"
       keywords={[`gatsby`, `application`, `react`]}
     />
     <HomeHeader img={img}>
       <Banner
         title="cafeteria gatsby.js"
-        subtitle="Produced with React.js, GraphQL, Contentful, Netlify and Github"
+        subtitle="Developed with React.js, GraphQL, Contentful, Netlify and Github"
       >
         <BannerButton style={{ margin: "2rem auto" }}>menu</BannerButton>
       </Banner>
     </HomeHeader>
     <QuickInfo />
     <Gallery />
+    <Menu />
   </Layout>
 )
 

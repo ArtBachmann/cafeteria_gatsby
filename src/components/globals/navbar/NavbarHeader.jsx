@@ -1,6 +1,5 @@
 import React, { Component } from "react"
 import { Link } from "gatsby"
-import logo from "../../../images/logo.svg"
 import { FaAlignRight } from "react-icons/fa"
 import styled from "styled-components"
 import { styles, NavbarButton } from "../../../utils"
