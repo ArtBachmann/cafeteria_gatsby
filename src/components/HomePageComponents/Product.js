@@ -5,7 +5,7 @@ import Img from "gatsby-image"
 
 export default function Product({ product }) {
   const { name, price, ingredients } = product
-  const { fixed } = product.img
+  const { fixed } = product.img[0]
 
   return (
     <ProductWrapper>
