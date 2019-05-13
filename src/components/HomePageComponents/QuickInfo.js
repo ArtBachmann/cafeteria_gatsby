@@ -1,7 +1,7 @@
 import React, { Component } from "react"
-import { Section, Title, SectionButton } from "../utils"
+import { Section, Title, SectionButton } from "../../utils"
 import styled from "styled-components"
-import { styles } from "../utils"
+import { styles } from "../../utils"
 import { Link } from "gatsby"
 
 export default class QuickInfo extends Component {

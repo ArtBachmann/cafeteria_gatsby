@@ -1,6 +1,6 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
-import { Section, Title, SectionButton } from "../utils"
+import { Section, Title, SectionButton } from "../../utils"
 import styled from "styled-components"
 import Product from "./Product"
 import { Link } from "gatsby"
@@ -28,7 +28,7 @@ const PRODUCTS = graphql`
 export default function Menu() {
   return (
     <Section>
-      <Title title="featured items" message="little taste" />
+      <Title title="our delicious meals" message="enjoy all day long" />
       <ProductList>
         <StaticQuery
           query={PRODUCTS}

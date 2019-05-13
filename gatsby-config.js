@@ -3,9 +3,9 @@ require("dotenv").config({
 })
 module.exports = {
   siteMetadata: {
-    title: `Bob's Eatery`,
-    description: `restaurant site made with gatsby.`,
-    author: `john`,
+    title: `Cafeteria Gatsby.js`,
+    description: `cafeteria site developed with gatsby.`,
+    author: `art bachmann`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -27,6 +27,7 @@ module.exports = {
         spaceId: process.env.SPACE_ID,
         // Learn about environment variables: https://gatsby.app/env-vars
         accessToken: process.env.ACCESS_TOKEN,
+        downloadLocal: true,
       },
     },
     {

@@ -5,9 +5,9 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { HomeHeader, Banner, BannerButton } from "../utils"
 import img from "../images/bcg/homeBcg2.jpg"
-import QuickInfo from "../HomePageComponents/QuickInfo"
-import Gallery from "../HomePageComponents/Gallery"
-import Menu from "../HomePageComponents/Menu"
+import QuickInfo from "../components/HomePageComponents/QuickInfo"
+import Gallery from "../components/HomePageComponents/Gallery"
+import Menu from "../components/HomePageComponents/Menu"
 
 const IndexPage = () => (
   <Layout>
