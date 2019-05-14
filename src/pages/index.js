@@ -17,7 +17,7 @@ const IndexPage = () => (
     <HomeHeader img={img}>
       <Banner
         title="cafeteria gatsby.js"
-        subtitle="Developed with React.js, GraphQL, Contentful, Netlify and Github"
+        subtitle="Developed with Gatsby.js React.js, GraphQL, Contentful, Netlify and Github"
       >
         <Link to="/menu/" style={{ textDecoration: "none" }}>
           <BannerButton style={{ margin: "2rem auto" }}>menu</BannerButton>
