@@ -38,7 +38,7 @@ export default class Footer extends Component {
             </a>
           ))}
         </div>
-        <p className="copyright">copyright &copy; 2020 Art Bachmann</p>
+        <p className="copyright">copyright &copy; 2020 Art</p>
       </FooterWrapper>
     )
   }
